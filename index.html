@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jam Gadang</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="CSS/styles.css">
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+    <!--navbar-->
+    <header class="navbar-container">
+        <div class="logo">
+            <img src="assets/Jam_Gadang.jpeg" alt="Jam Gadang">
+        </div>
+
+        <nav id="nav-mobile" class="isi-logo">
+            <ul>
+                <li><a href="#beranda">Beranda</a></li>
+
+                <li><a href="#menu" onclick="return smoothscroll('menu')">Menu</a></li>
+                <li>
+                    <a href="#tentang" onclick="return smoothscroll('tentang')">Tentang Kami</a>
+                </li>
+                <li><a href="#kontak" onclick="return smoothscroll('kontak')">Kontak</a></li>
+                <li><a href="#biodata" onclick="return smoothscroll('biodata')">Identitas</a></li>
+            </ul>
+        </nav>
+    </header>
+        <!--beranda-->
+    <main>
+        <article id="beranda" class="beranda">
+            <table border="0">
+                <tr>
+                    <td>
+                        <div class="kiri-header">
+                            <h3>
+                                Welcome to <span class="span1">Jam Gadang</span> <br>
+                            </h3>
+                            <p>
+                                <span class="span2">Jam Gadang</span> merupakan menara jam ikonik yang terletak di pusat kota Bukittinggi, Sumatera Barat. <br>
+                            </p>
+                        </div>
+                    </td>
+                    <td>
+                        <img src="assets/jam-gadang-Bukit-Tinggi.png" alt="Jam Gadang">
+                    </td>
+                </tr>
+            </table>
+        </article>
+
+        <article>
+            <div id="tentang" class="konten">
+                <div class="konten-img">
+                    <img src="assets/landmark_Jam_Gadang.JPG" alt="Jam Gadang">
+                </div>
+                <div class="konten-deskripsi">
+                    <h2 class="title1">Tentang Kami</h2>
+                    <h1 class="title">Jam Gadang</h1>
+                    <p class="P">
+                        Dibangun pada tahun 1926 sebagai hadiah dari Ratu Belanda kepada sekretaris kota saat itu, <br>
+                        bangunan ini memiliki arsitektur unik dengan atap yang telah mengalami beberapa perubahan, 
+                        dari gaya Eropa ke gaya Minangkabau saat ini. <br> Jam Gadang telah menjadi simbol kota Bukittinggi dan 
+                        salah satu destinasi wisata utama di Sumatera Barat.
+                    </p>
+                </div>
+                
+            </div>
+        </article>
+
+        <aside id="biodata" class="identitas">
+            <article class="isi-data">
+                <div class="biodata">
+                    <p>Identitas Diri</p>
+                </div>
+                <div class="container-ident">
+                    <div class="card-ident">
+                        <div class="head-ident">
+                            <img src="assets/foto.jpg" alt="">
+                        </div>
+                        <div class="body-indent">
+                            <h1>Arbi Syafri Hadi</h1>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </aside>
+
+        <aside id="kontak" class="kontak">
+            <div class="social-media">
+                <ul>
+                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                </ul>
+            </div>
+
+            <div class="content">
+
+            </div>
+        </aside>
+
+    </main>
+
+    <!--footer-->
+    <footer class="Footer">
+        <p class="P">Arbi Syafri Hadi || 2025</p>
+    </footer>
+</body>
+<script src="JS/script.js"></script>
+</html>
